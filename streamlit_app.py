@@ -13,11 +13,5 @@ st.markdown("""- 첫 번째 항목
 - 두 번째 항목
 - 여러 줄을 쓸 때""")
 
-# 페이지 구조용 제목 출력
-st.title("메인 제목입니다")
-st.header("중간 제목입니다")
-st.subheader("하위 제목입니다")
-
-# 수평선 (구분선) 출력
-st.markdown("---")  # 또는
-st.divider()        # Streamlit >= 1.22 이상에서 가능
+st.image("https://www.readersnews.com/news/photo/202004/98349_64666_155.jpg")
+st.image("https://media4.giphy.com/media/Lv2VhwHrt6ljhvZ6LF/giphy.webp?cid=82a1493bf0i2w35giy8e9zadzndezaaal5pujrsii0terkfl&ep=v1_gifs_trending&rid=giphy.webp&ct=g")
